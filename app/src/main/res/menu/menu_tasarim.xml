@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/resim_home"
+        android:title="AnaSayfa" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/resim_profile"
+        android:title="ProfileSayfası" />
+    <item
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/resim_favorite"
+        android:title="BegenilerSayfası" />
+    <item
+        android:id="@+id/BasketFragment"
+        android:icon="@drawable/resim_basket"
+        android:title="Sepet" />
+    <item
+        android:id="@+id/MoreInfoFragment"
+        android:icon="@drawable/resim_moreinfo"
+        android:title="Daha Fazla" />
+</menu>

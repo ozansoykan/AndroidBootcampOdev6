@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page_structure_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ozansoykan.handmapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.ozansoykan.handmapp.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.ozansoykan.handmapp.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.ozansoykan.handmapp.BasketFragment"
+        android:label="fragment_basket2"
+        tools:layout="@layout/fragment_basket2" />
+    <fragment
+        android:id="@+id/moreInfoFragment"
+        android:name="com.ozansoykan.handmapp.MoreInfoFragment"
+        android:label="fragment_more_info"
+        tools:layout="@layout/fragment_more_info" />
+</navigation>
